@@ -7,7 +7,7 @@ describe("Mini App E2E", () => {
     cy.get('h2').contains('Login');
     cy.get("#username").type("admin");
     cy.get("#password").type("1234");
-    cy.get("#login").click();
+    cy.get("#loginBtn").click();
   });
 
   it("adds a todo", () => {
